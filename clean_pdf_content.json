@@ -1,0 +1,279 @@
+{
+  "pdf_content": "Assignment 4 - Part 1 Due: March 14th 2025, 03:59 pm EST Required Attestation and Contribution Declaration \u25cf WE ATTEST THAT WE HAVEN\u2019T USED ANY OTHER STUDENTS\u2019 WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK. \u25cf Contribution Example \u25cb Member 1: 33 1/3% \u25cb Member 2: 33 1/3% \u25cb Member 3: 33 1/3% \u25cf Links to GitHub tasks and tasks owned by each member. Assignment Overview You had a wonderful Spring break and returned to your office with memories of beaches and oceans from the beautiful warm city of Boston.. You are chilling by the office coffee machine telling your colleagues how great the weather in Boston was the whole of last week and why you enjoy the warm weather in Boston which you chose as your Spring break destination. Your manager is obviously jealous of all this and asks your team to join her to discuss the next project. She wants you to update the demo you put together for Assignment 1 with additional capabilities! She says that she has been working with customers all week while you were away on your break and wants to turn this project around in a week! You show your pictures from Spring break and say with the warm weather you enjoyed last week, this assignment is a breeze and you get ready! \ud83d\ude42 & you are excited to get started! Assignment Enhancement: Streamlit Application with LLM Integration Assignment Overview You are enhancing your existing assignment 1 to develop a Streamlit application that programmatically invokes Large Language Models (LLMs) using FastAPI as an intermediary and LiteLLM for API management. The application should build upon your existing progress and provide functionality for summarizing and answering questions based on uploaded PDF documents. Assignment Objectives 1. Develop a Streamlit web application that: \u25cb Select previously parsed PDF content or new pdf files \u25cb Utilizes Large Language Models (LLMs) like GPT-4o through LiteLLM to: \u25a0 Provide summaries of the document content. \u25a0 Answer user-submitted questions about the document content. 2. Integrate FastAPI to handle backend API interactions between Streamlit and LLM services. 3. Implement and manage API integrations with LiteLLM to simplify connections to LLM providers. Functional Requirements Front-End (Streamlit) \u25cf Create a user-friendly interface with the following features: \u25cb Select the LLM of choice \u25cb Ability to select from prior parsed pdf markdowns Or File upload capability for new PDF documents. \u25cb Text input for asking specific questions. \u25cb Buttons to trigger summarization and Q&A functionalities. \u25cb Clear display areas for showing generated summaries and answers. Back-End (FastAPI) \u25cf Set up REST API endpoints using FastAPI to manage requests from the Streamlit application. \u25cb Endpoints: \u25a0 /select_pdfcontent to select prior pdf parsed content \u25a0 /upload_pdf to accept PDF content. \u25a0 /summarize : Generates summaries. \u25a0 /ask_question : Processes user questions and returns answers. \u25cf Implement appropriate response formats (JSON) for communication. \u25cf Use Redis streams for communication between FASTAPI and other services LiteLLM Integration \u25cf Manage all interactions with various LLM APIs using LiteLLM. \u25cf Clearly document and price model usage for input and output tokens for every query. \u25cf Include error handling for API calls and appropriate logging. Deployment \u25cf Use Docker compose and deploy all components on the cloud Deliverables 1. GitHub Repository: \u25cb Well-organized, documented, and structured code. \u25cb Detailed project README.md including setup instructions. \u25cb Diagrammatic representations of architecture and data flows. 2. Documentation and Reporting \u25cb Create an AIUseDisclosure.md to transparently list and explain all utilized AI tools and their specific applications within the project. Submission: \u25cf Provide a GitHub repository link containing: \u25cb Project summary, PoC details, and documentation. \u25cb Clear task tracking using GitHub issues. \u25cb Technical and architectural diagrams illustrating the processing and application flow. \u25cb A final, detailed Codelab outlining step-by-step implementation. Number Model Documentation 1 GPT-4o OpenAI GPT-4o Documentation 2 Gemini - Flash Google Gemini 2.0 Flash Documentation 3 DeepSeek DeepSeek LLM Documentation 4 Claude Anthropic Claude Documentation 5 Grok xAI Grok Documentation",
+  "tables": [
+    [
+      {
+        "0": "Assignment 4 - Part 1",
+        "1": ""
+      },
+      {
+        "0": "Due: March 14th 2025, 03:59 pm EST",
+        "1": ""
+      },
+      {
+        "0": "Required Attestation and Contribution Declaration",
+        "1": ""
+      },
+      {
+        "0": "",
+        "1": "\u25cf  WE ATTEST THAT WE HAVEN\u2019T USED ANY OTHER STUDENTS\u2019 WORK IN OUR"
+      },
+      {
+        "0": "",
+        "1": "ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT"
+      },
+      {
+        "0": "",
+        "1": "HANDBOOK."
+      },
+      {
+        "0": "\u25cf",
+        "1": "Contribution Example"
+      },
+      {
+        "0": "",
+        "1": "\u25cb  Member 1: 33 1/3%"
+      },
+      {
+        "0": "",
+        "1": "\u25cb  Member 2: 33 1/3%"
+      },
+      {
+        "0": "",
+        "1": "\u25cb  Member 3: 33 1/3%"
+      },
+      {
+        "0": "\u25cf",
+        "1": "Links to GitHub tasks and tasks owned by each member."
+      },
+      {
+        "0": "Assignment Overview",
+        "1": ""
+      },
+      {
+        "0": "You had a wonderful Spring break and returned to your office with memories of beaches and",
+        "1": ""
+      },
+      {
+        "0": "oceans from the beautiful warm city of Boston.. You are chilling by the office coffee machine",
+        "1": ""
+      },
+      {
+        "0": "telling your colleagues how great the weather in Boston was the whole of last week and why",
+        "1": ""
+      },
+      {
+        "0": "you enjoy the warm weather in Boston which you chose as your Spring break destination. Your",
+        "1": ""
+      },
+      {
+        "0": "manager is obviously jealous of all this and asks your team to join her to discuss the next",
+        "1": ""
+      },
+      {
+        "0": "project. She wants you to update the demo you put together for Assignment 1 with additional",
+        "1": ""
+      },
+      {
+        "0": "capabilities! She says that she has been working with customers all week while you were away",
+        "1": ""
+      },
+      {
+        "0": "on your break and wants to turn this project around in a week! You show your pictures from",
+        "1": ""
+      },
+      {
+        "0": "Spring break and say with the warm weather you enjoyed last week, this assignment is a breeze",
+        "1": ""
+      },
+      {
+        "0": "and you get ready! \ud83d\ude42 & you are excited to get started!",
+        "1": ""
+      }
+    ],
+    [
+      {
+        "0": "Assignment Enhancement: Streamlit Application with"
+      },
+      {
+        "0": "LLM Integration"
+      },
+      {
+        "0": "Assignment Overview"
+      },
+      {
+        "0": "You are enhancing your existing assignment 1 to develop a Streamlit"
+      },
+      {
+        "0": "application that programmatically invokes Large Language Models (LLMs)"
+      },
+      {
+        "0": "using FastAPI as an intermediary and LiteLLM for API management. The"
+      },
+      {
+        "0": "application should build upon your existing progress and provide"
+      },
+      {
+        "0": "functionality for summarizing and answering questions based on uploaded"
+      },
+      {
+        "0": "PDF documents."
+      },
+      {
+        "0": "Assignment Objectives"
+      }
+    ],
+    [
+      {
+        "0": "Back-End (FastAPI)",
+        "1": ""
+      },
+      {
+        "0": "",
+        "1": "\u25cf  Set up REST API endpoints using FastAPI to manage requests from"
+      },
+      {
+        "0": "",
+        "1": "the Streamlit application."
+      },
+      {
+        "0": "",
+        "1": "\u25cb  Endpoints:"
+      },
+      {
+        "0": "",
+        "1": "\u25a0  /select_pdfcontent to select prior pdf parsed content"
+      },
+      {
+        "0": "",
+        "1": "\u25a0  /upload_pdf to accept PDF content."
+      },
+      {
+        "0": "",
+        "1": "\u25a0  /summarize: Generates summaries."
+      },
+      {
+        "0": "",
+        "1": "\u25a0  /ask_question: Processes user questions and returns"
+      },
+      {
+        "0": "",
+        "1": "answers."
+      },
+      {
+        "0": "\u25cf",
+        "1": "Implement appropriate response formats (JSON) for communication."
+      },
+      {
+        "0": "\u25cf",
+        "1": "Use Redis streams for communication between FASTAPI and other services"
+      },
+      {
+        "0": "LiteLLM Integration",
+        "1": ""
+      },
+      {
+        "0": "",
+        "1": "\u25cf  Manage all interactions with various LLM APIs using LiteLLM."
+      },
+      {
+        "0": "",
+        "1": "\u25cf  Clearly document and price model usage for input and output tokens"
+      },
+      {
+        "0": "",
+        "1": "for every query."
+      },
+      {
+        "0": "\u25cf",
+        "1": "Include error handling for API calls and appropriate logging."
+      },
+      {
+        "0": "Deployment",
+        "1": ""
+      },
+      {
+        "0": "",
+        "1": "\u25cf  Use Docker compose and deploy all components on the cloud"
+      },
+      {
+        "0": "Deliverables",
+        "1": ""
+      },
+      {
+        "0": "1.  GitHub Repository:",
+        "1": ""
+      },
+      {
+        "0": "",
+        "1": "\u25cb  Well-organized, documented, and structured code."
+      },
+      {
+        "0": "",
+        "1": "\u25cb  Detailed project README.md including setup instructions."
+      },
+      {
+        "0": "",
+        "1": "\u25cb  Diagrammatic representations of architecture and data flows."
+      },
+      {
+        "0": "2.  Documentation and Reporting",
+        "1": ""
+      },
+      {
+        "0": "",
+        "1": "\u25cb  Create an AIUseDisclosure.md to transparently list and"
+      },
+      {
+        "0": "",
+        "1": "explain all utilized AI tools and their specific applications within"
+      },
+      {
+        "0": "",
+        "1": "the project."
+      }
+    ],
+    [
+      {
+        "0": "",
+        "1": "",
+        "2": "\u25cb  A final, detailed Codelab outlining step-by-step implementation."
+      },
+      {
+        "0": "Number Model",
+        "1": "",
+        "2": "Documentation"
+      },
+      {
+        "0": "1",
+        "1": "GPT-4o",
+        "2": "OpenAI GPT-4o Documentation"
+      },
+      {
+        "0": "",
+        "1": "Gemini -",
+        "2": "Google Gemini 2.0 Flash"
+      },
+      {
+        "0": "2",
+        "1": "Flash",
+        "2": "Documentation"
+      },
+      {
+        "0": "3",
+        "1": "DeepSeek",
+        "2": "DeepSeek LLM Documentation"
+      },
+      {
+        "0": "4",
+        "1": "Claude",
+        "2": "Anthropic Claude Documentation"
+      },
+      {
+        "0": "5",
+        "1": "Grok",
+        "2": "xAI Grok Documentation"
+      }
+    ]
+  ]
+}
