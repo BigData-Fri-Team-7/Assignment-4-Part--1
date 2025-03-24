@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-dotenv
+boto3
+PyPDF2
+camelot-py[cv]
+pdfplumber
+PyMuPDF
+pandas
+tiktoken
+litellm
+google-generativeai
+openai
+anthropic
