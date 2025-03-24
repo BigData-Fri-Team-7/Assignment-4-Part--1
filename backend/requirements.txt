@@ -13,4 +13,6 @@ google-generativeai
 openai
 anthropic
 pycryptodome>=3.17.0
+python-multipart
+
 
