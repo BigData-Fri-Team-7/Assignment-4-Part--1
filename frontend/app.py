@@ -14,13 +14,13 @@ S3_BUCKET_NAME = os.getenv("S3_BUCKET_NAME")
 S3_MARKDOWN_FOLDER = "Markdowns/"
 
 # Backend Endpoints
-UPLOAD_URL = "http://localhost:8000/upload_pdf/"
-CONVERT_PDF_MARKDOWN_URL = "http://localhost:8000/convert_pdf_markdown/"
-CHAT_URL = "http://localhost:8000/chat/"
-ESTIMATE_COST_URL = "http://localhost:8000/estimate_cost/"  # new endpoint for cost estimation
-FETCH_MARKDOWN_URL = "http://localhost:8000/fetch_markdown_files/"
-GET_MARKDOWN_CONTENT_URL = "http://localhost:8000/get_markdown_content/"
-SUMMARIZE_URL = "http://localhost:8000/summarize/"
+UPLOAD_URL = "https://assignment-4-part-1.onrender.com/upload_pdf/"
+CONVERT_PDF_MARKDOWN_URL = "https://assignment-4-part-1.onrender.com/convert_pdf_markdown/"
+CHAT_URL = "https://assignment-4-part-1.onrender.com/chat/"
+ESTIMATE_COST_URL = "https://assignment-4-part-1.onrender.com/estimate_cost/"  # new endpoint for cost estimation
+FETCH_MARKDOWN_URL = "https://assignment-4-part-1.onrender.com/fetch_markdown_files/"
+GET_MARKDOWN_CONTENT_URL = "https://assignment-4-part-1.onrender.com/get_markdown_content/"
+SUMMARIZE_URL = "https://assignment-4-part-1.onrender.com/summarize/"
 
 # Initialize S3 Client (if needed)
 s3_client = boto3.client(
