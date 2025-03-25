@@ -9,6 +9,12 @@ This project enhances the functionality of Assignment 1 by introducing:
 - A demonstration of token pricing, error handling, and logging for LLM interactions.
 
 ---
+## 🔗 Live Deployments
+
+- **Frontend (Streamlit)** → https://assignment-4-part--1.streamlit.app/
+- **Backend (FastAPI)** → https://assignment-4-part-1.onrender.com
+
+---
 
 ## Features
 
