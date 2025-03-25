@@ -49,3 +49,36 @@ This project enhances the functionality of Assignment 1 by introducing:
 
 Below is the folder layout from the attached image:
 ASSIGNMENT 4-1 ├── backend │ ├── pycache/ │ ├── apt.txt │ ├── llm_chat.py │ ├── main.py │ ├── pdf_extractor.py │ ├── pdf_markdown_converter.py │ ├── requirements.txt │ └── runtime.txt ├── frontend │ ├── app.py │ └── requirements.txt └── README.md
+
+**Key Files**:
+- `backend/main.py`: Entry point for the FastAPI app.
+- `backend/llm_chat.py`: Manages LLM interactions (e.g., summarization, Q&A).
+- `backend/pdf_extractor.py` & `backend/pdf_markdown_converter.py`: Utilities for reading and converting PDF content.
+- `frontend/app.py`: Streamlit application file.
+- `backend/requirements.txt` & `frontend/requirements.txt`: Python dependencies.
+
+---
+
+## Setup Instructions
+
+### Local Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone <YOUR_REPO_URL>
+   cd ASSIGNMENT\ 4-1
+# For the backend
+cd backend
+pip install -r requirements.txt
+
+# Go back and install frontend requirements
+cd ../frontend
+pip install -r requirements.txt
+
+#If your LLM services or any external APIs require tokens/keys, create a .env file in each folder (or a single .env in the project root) and add your API keys.
+
+Example .env content:
+
+bash
+Copy
+LLM_API_KEY="your-llm-api-key"
