@@ -44,6 +44,8 @@ This project enhances the functionality of Assignment 1 by introducing:
 | **LLM**      | [LiteLLM](https://github.com/litellm/litellm) | Simplified integration with GPT-4o and other LLM providers.                  |
 
 ---
+##architecture:
+![image](https://github.com/user-attachments/assets/8a5e0061-ff48-4637-a973-5035962c66e4)
 
 ## Project Structure
 
