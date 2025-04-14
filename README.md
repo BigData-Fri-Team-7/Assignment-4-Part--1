@@ -13,7 +13,8 @@ This project enhances the functionality of Assignment 1 by introducing:
 
 - **Frontend (Streamlit)** → https://assignment-4-part--1.streamlit.app/
 - **Backend (FastAPI)** → https://assignment-4-part-1.onrender.com
-#Code lab: https://codelabs-preview.appspot.com/?file_id=17i-15Q0AgWcH9vOmXQGUQJjV4O1AeEa3Z4hQjMt81C0#0
+- **Demo Video*->https://www.loom.com/share/85893773f44e4a11bacdc9a8bc0f0726?sid=c65b7880-6ca0-41eb-b4f4-1777c75d7d5d
+-**Code lab**: https://codelabs-preview.appspot.com/?file_id=17i-15Q0AgWcH9vOmXQGUQJjV4O1AeEa3Z4hQjMt81C0#0
 ---
 
 ## Features
